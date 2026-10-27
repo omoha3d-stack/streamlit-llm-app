@@ -3,7 +3,7 @@ from langchain_openai.chat_models import ChatOpenAI
 #Create the app's title using st.title
 st.title("🦜🔗 Quickstart App")
 # Add a text input box for the user to enter their OpenAi API key.
-openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
+openai_api_key = st.sidebar.text_input("Osk-proj-zUwDykCS0Ldy5Sc9FOJDBFGL9w5HPKqLNB1WHuKAiFTjdCvxBaHE31R08TSxraxZTuYyvXjkR6T3BlbkFJwIrgaag0wPgaQ63gKGVmPuMmL3nM493EtGeecGotahHOtRWKJ6yOMK2JySkFhFwrtHg1K21WUA", type="password")
 
 #Denf a function to authenticate to OpenAI with the user's key 
 def generate_response(input_text):
